@@ -1,0 +1,96 @@
+@keyframes fontup{
+	0%{
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+	30%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	90%{
+		opacity: 1;
+		transform: translateY(0);
+		
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+}
+@keyframes fontdown{
+	0%{
+		opacity: 0;
+		transform: translateY(200px);
+		
+	}
+	30%{
+		transform: translateY(0);
+		opacity: 1;
+	}
+	90%{
+		opacity: 1;
+		transform: translateY(0);
+		
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(200px);
+		
+	}
+}
+#fly h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+#fly h2{
+	background-color: #79BE0B;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	width: auto;
+	height:auto;
+	color: #FFFFFF;
+	padding: 0 5px;
+}
+#com h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+#com h2{
+	background-color: #79BE0B;
+	font-weight: 600;
+	font-size: 18px;
+	position: absolute;
+	width: auto;
+	height:auto;
+	color: #FFFFFF;
+	padding: 0 5px;
+	font-weight: 100;
+}
+#shu h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+#shu h2{
+	background-color: #79BE0B;
+	font-weight: 600;
+	font-size: 18px;
+	position: absolute;
+	width: auto;
+	height:auto;
+	color: #FFFFFF;
+	padding: 0 5px;
+	font-weight: 100;
+}

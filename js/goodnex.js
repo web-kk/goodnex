@@ -39,7 +39,6 @@ $(document).ready(function(){
 		}
 		flog=false
 		var width=pic.width()+20;
-//		console.log(width)
 		imgBox.stop(true).animate({left:-width},600,function(){
 			var first=$('.bottom-lb .x-lun:first-child')
 			imgBox.append(first)
